@@ -1,0 +1,142 @@
+# ─────────────────────────────────────────────
+# Secretos y credenciales — NUNCA en el repo
+# ─────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.env
+
+# Claves y certificados
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.keystore
+*.jks
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+*.ppk
+
+# Archivos que suelen contener claves
+secrets.*
+credentials.*
+credenciales.*
+*credentials*.json
+*service-account*.json
+*-secrets.*
+*.secret
+.netrc
+.npmrc
+.pypirc
+.aws/
+.ssh/
+gcloud-key*.json
+firebase-adminsdk*.json
+config.local.*
+settings.local.json
+auth.json
+token.json
+tokens.json
+*.token
+
+# ─────────────────────────────────────────────
+# Dependencias y builds
+# ─────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.*
+bower_components/
+jspm_packages/
+vendor/
+
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+.turbo/
+.vercel/
+.output/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+ENV/
+.Python
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────
+# Logs y temporales
+# ─────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+tmp/
+temp/
+.cache/
+*.tmp
+*.bak
+*.swp
+*~
+
+# ─────────────────────────────────────────────
+# Sistema operativo
+# ─────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ─────────────────────────────────────────────
+# Editores e IDEs
+# ─────────────────────────────────────────────
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+
+# ─────────────────────────────────────────────
+# Datos y binarios pesados (enlazar, no subir)
+# ─────────────────────────────────────────────
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.csv.gz
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.mp4
+*.mov
+*.avi
+
+# ─────────────────────────────────────────────
+# Carpeta local para lo que no debe compartirse
+# ─────────────────────────────────────────────
+privado/
+local/
