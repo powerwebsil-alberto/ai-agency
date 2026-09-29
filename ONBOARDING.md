@@ -217,4 +217,4 @@ Si eso llega a GitHub sin errores, estás dentro.
 
 ## Dudas
 
-Escribe a Alberto: albertomercado1702@gmail.com
+Abre una issue en el repo o menciona a [@powerwebsil-alberto](https://github.com/powerwebsil-alberto).

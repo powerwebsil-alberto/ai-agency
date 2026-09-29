@@ -35,7 +35,7 @@ relevante no está escrita ahí, no la asumas: pregunta.
 
 | Persona | Rol | Se enfoca en | Contacto |
 |---|---|---|---|
-| Alberto | `[PENDIENTE — definir rol]` | `[PENDIENTE]` | albertomercado1702@gmail.com |
+| Alberto | `[PENDIENTE — definir rol]` | `[PENDIENTE]` | [@powerwebsil-alberto](https://github.com/powerwebsil-alberto) |
 | `[NOMBRE COLABORADOR]` | `[PENDIENTE — definir rol]` | `[PENDIENTE]` | `[PENDIENTE]` |
 
 **Reparto de trabajo:** `[PENDIENTE — sin definir todavía]`
